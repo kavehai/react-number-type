@@ -41,7 +41,6 @@ const MyComponent = () => {
     <div>
       <h1>React Number Type Example</h1>
       <NumberType
-        value={42}
         onChange={(newValue) => console.log('New Value:', newValue)}
         // Add any additional props as needed
       />
